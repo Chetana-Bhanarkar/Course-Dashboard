@@ -1,0 +1,12 @@
+.progress{
+    height: 10px;
+}
+.progress-bar{
+    background : rgb(95 105 230);
+}
+
+.progress-value{
+    display: flex;
+    justify-content: end;
+    color: grey;
+}
