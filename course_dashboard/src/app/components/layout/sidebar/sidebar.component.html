@@ -4,15 +4,22 @@
         <h2>Dashboard</h2>
         <ul class="nav flex-column mt-4">
             <li class="nav-item">
-                <button class="btn btn-link nav-link active text-start w-100"
-                    (click)="navigateTo('dashboard')">Dashboard</button>
-            </li>
-            <li class="nav-item">
-                <button class="btn btn-link nav-link text-start w-100" (click)="navigateTo('my-courses')">My Courses</button>
+                <button class="btn btn-link nav-link text-start w-100"
+                    [ngClass]="{ 'active': activeSection === 'dashboard' }" (click)="navigateTo('dashboard')">
+                    Dashboard
+                </button>
             </li>
             <li class="nav-item">
                 <button class="btn btn-link nav-link text-start w-100"
-                    (click)="navigateTo('settings')">Settings</button>
+                    [ngClass]="{ 'active': activeSection === 'my-courses' }" (click)="navigateTo('my-courses')">
+                    My Courses
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="btn btn-link nav-link text-start w-100"
+                    [ngClass]="{ 'active': activeSection === 'settings' }" (click)="navigateTo('settings')">
+                    Settings
+                </button>
             </li>
         </ul>
 
