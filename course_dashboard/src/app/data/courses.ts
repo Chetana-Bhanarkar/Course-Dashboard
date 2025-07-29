@@ -1,24 +1,23 @@
 export const courses = [
-    {
-        id: 1,
-        title: "Introduction to Programming",
-        instructor: "John Doe",
-        progress: 75
-    },
-    {
-        id: 2,
-        title: "Advanced Math",
-        instructor: "Jane Smith",
-
-        progress: 40
-    },
-    {
-        id: 3,
-        title: "History 101",
-        instructor: "Mark Johnson",
-        progress: 90
-    },
-    {
+  {
+    id: 1,
+    title: "Introduction to Programming",
+    instructor: "John Doe",
+    progress: 75
+  },
+  {
+    id: 2,
+    title: "Advanced Math",
+    instructor: "Jane Smith",
+    progress: 40
+  },
+  {
+    id: 3,
+    title: "History 101",
+    instructor: "Mark Johnson",
+    progress: 90
+  },
+  {
     id: 4,
     title: "Full Stack Web Development",
     instructor: "John Doe",
