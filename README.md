@@ -91,15 +91,20 @@ Displays the list of enrolled or available courses for a user. It may include fi
 ##### - Setting Component
 Allows users to update their preferences, profile info, or application-level settings.
 
-### Dashboard
+
+---
+
+### UI Preview
+
+#### 1. Dashboard
 <img width="1365" height="766" alt="image" src="https://github.com/user-attachments/assets/ddb158a3-16d6-4c11-af0f-7f9852a453c9" />
 
 
-### My Courses
+#### 2. My Courses
 <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/ae645f44-d834-4b8c-8bea-b744ba29d003" />
 
 
-### Setting
+#### 3. Setting
 <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/1fd47dc5-6d78-4e52-b19a-370be649adce" />
 
 
